@@ -635,10 +635,14 @@ img {
         0px 1px 1px rgba(0, 0, 0, 0.14), 
         0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.modal-btn {
+.modal-btn-close {
     position: absolute;
     top: 8px;
     right: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     cursor: pointer;
     width: 30px;
@@ -646,6 +650,13 @@ img {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     background: #FFFFFF;
+    fill: currentColor;
+
+    transition: color 250ms var(--timing-function);
+}
+.modal-btn-close:hover,
+.modal-btn-close:focus {
+  color: var(--accent-text-color);
 }
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scale(0);
