@@ -375,13 +375,26 @@
                     </li>
                 </ul>
             </div>
+            <!-- subscription -->
+            <form class="subscription-form">
+                <b class="subs-title">Подпишитесь на рассылку</b>
+                <div class="subscription">
+                    <label for="email" name="email"></label>
+                    <input class="subs-input" id="email" name="email" type="email" placeholder="E-mail" autocomplete="email">
+                    <button class="subs-btn" type="submit">Подписаться
+                        <svg class="icon-send" width="24px" height="24px">
+                            <use href="./images/sprite.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </div>
+            </form>
         </div>
     </footer>
     <!-- modal button -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="modal-btn" type="button" data-modal-close>
-                <svg class="logo-close" width="11px" height="11px">
+                <svg class="logo-close" width="12px" height="12px">
                     <use href="./images/sprite.svg#icon-close"></use>
                 </svg>
             </button>
