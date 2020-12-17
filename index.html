@@ -379,8 +379,8 @@
             <form class="subscription-form">
                 <b class="subs-title">Подпишитесь на рассылку</b>
                 <div class="subscription">
-                    <label for="email" name="email"></label>
-                    <input class="subs-input" id="email" name="email" type="email" placeholder="E-mail" autocomplete="email">
+                    <label for="subs-email"></label>
+                    <input class="subs-input" id="subs-email" name="subs-email" type="email" placeholder="E-mail" autocomplete="email">
                     <button class="subs-btn" type="submit">Подписаться
                         <svg class="icon-send" width="24px" height="24px">
                             <use href="./images/sprite.svg#icon-send"></use>
@@ -398,6 +398,38 @@
                     <use href="./images/sprite.svg#icon-close"></use>
                 </svg>
             </button>
+            <form class="main-form">
+                <b class="form-title">Оставьте свои данные, мы вам перезвоним</b>
+                <div class="form-field">
+                    <label class="modal-label" for="name">Имя</label>
+                    <input class="modal-input" id="name" type="text" name="name" autocomplete="name">
+                    <svg class="icon-input" width="18px" height="18px">
+                        <use href="./images/sprite.svg#icon-person"></use>
+                    </svg>
+                </div>
+                <div class="form-field">
+                    <label class="modal-label" for="tel">Телефон</label>
+                    <input class="modal-input" id="tel" type="tel" name="tel" autocomplete="tel">
+                    <svg class="icon-input" width="18px" height="18px">
+                        <use href="./images/sprite.svg#icon-phone"></use>
+                    </svg>
+                </div>
+                <div class="form-field">
+                    <label class="modal-label" for="email">Почта</label>
+                    <input class="modal-input" id="email" type="email" name="email" autocomplete="email">
+                    <svg class="icon-input" width="18px" height="18px">
+                        <use href="./images/sprite.svg#icon-email"></use>
+                    </svg>
+                </div>
+                <div class="form-field comment">
+                    <label class="modal-label" for="comment">Комментарий</label>
+                    <textarea class="modal-input textarea" id="comment" name="comment" placeholder="Введите текст"></textarea>
+                </div>
+                <div class="checkbox">Соглашаюсь с рассылкой и принимаю Условия договора</div>
+              
+                <button class="send-btn" type="submit">Отправить</button>
+                
+            </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>
