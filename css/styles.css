@@ -410,12 +410,14 @@ textarea {
     padding-bottom: 60px;
     background: #2F303A;
 } 
+.wrap {
+    width: 231px;
+}
 .logo-white {
     color: var(--reserve-text-color);
 }
 .main-contacts-list {
     margin-top: 20px;
-    width: 231px;
 }
 .main-contacts-item:not(:last-child) {
     margin-bottom: 9px;
@@ -433,7 +435,6 @@ textarea {
     display: flex;
     justify-self: start;
     align-items: baseline;
-    /* justify-content: space-between; */
 }   
 /* =====footer social links======= */
 .footer-social {
