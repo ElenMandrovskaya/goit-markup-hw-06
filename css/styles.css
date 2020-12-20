@@ -415,6 +415,7 @@ textarea {
 }
 .main-contacts-list {
     margin-top: 20px;
+    width: 231px;
 }
 .main-contacts-item:not(:last-child) {
     margin-bottom: 9px;
@@ -432,6 +433,7 @@ textarea {
     display: flex;
     justify-self: start;
     align-items: baseline;
+    /* justify-content: space-between; */
 }   
 /* =====footer social links======= */
 .footer-social {
@@ -476,6 +478,7 @@ textarea {
 .subscription-form {
     display: block;
     margin-left: 93px;
+    width: 570px;
 }
 .subs-btn {
     display: flex;
